@@ -22,6 +22,7 @@ gulp.task('default', [
 
 gulp.task('deps', function() {
     return gulp.src([
+        //'lib/angular.js',
         'lib/angular_1_router.js'
     ])
     .pipe(sourcemaps.init())

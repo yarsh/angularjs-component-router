@@ -10,9 +10,9 @@ var app = angular.module('myApp', [
 ]);
 
 app.component('app', {
-	templateUrl: 'components/app/app.html',
-	controller: ['$router', 'Auth', AppComponentController]
-});
+		templateUrl: 'components/app/app.html',
+		controller: ['$router', 'Auth', AppComponentController]
+	});
 
 function AppComponentController($router) {
 	$router.config([
